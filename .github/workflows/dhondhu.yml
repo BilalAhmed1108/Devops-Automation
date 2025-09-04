@@ -7,7 +7,11 @@ on:
       - 'feature/**'
 
 jobs:
- terraformInit:
-  name: initwa
-  runs-on: 
+ Dhondumaharaj:
+  name: Dhondu Maharaj
+  runs-on: dhondu_maharaj
+  steps:
+   -name: Dhondu maharaj Rocks!
+   run: echo Dhondu Maharaj
+  
 
