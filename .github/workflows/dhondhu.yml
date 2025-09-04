@@ -11,7 +11,7 @@ jobs:
   name: Dhondu Maharaj
   runs-on: dhondu_maharaj
   steps:
-   -name: Dhondu maharaj Rocks!
-   run: echo Dhondu Maharaj
+   - name: Dhondu maharaj Rocks!
+     run: echo Dhondu Maharaj
   
 
