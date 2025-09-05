@@ -1,23 +1,26 @@
-name: first workflow
+name: infra pipeline kuch bhi
 
-on:
-  push:
-    branches:
-      - 'main'
-      - 'feature/**'
+# on:
+#   push:
+#     branches:
+#       - 'main'
+#       - 'feature/**'
+
+on: workflow_dispatch
 
 jobs:
  Dhondumaharaj:
   name: Dhondu Maharaj
   runs-on: dhondu_maharaj
   steps:
-   - name: Dhondu maharaj Rocks!
-     run: echo Dhondu Maharaj
+   # - name: Dhondu maharaj Rocks!
+   #   run: echo Dhondu Maharaj
 
-   - name: Rondu maharaj Rocks!
-     run: echo Rondu Maharaj
+   # - name: Rondu maharaj Rocks!
+   #   run: echo Rondu Maharaj
 
-   - name: Tonndu maharaj Rocks!
-     run: echo Toondu Maharaj
-  
+   # - name: Tonndu maharaj Rocks!
+   #   run: echo Toondu Maharaj
+    - name: Checkout
+      uses: actions/checkout@v5.0.0
 
