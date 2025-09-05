@@ -9,9 +9,9 @@ name: infra pipeline kuch bhi
 on: workflow_dispatch
 
 jobs:
- Dhondumaharaj:
-  name: Dhondu Maharaj
-  runs-on: dhondu_maharaj
+ Terraform-job:
+  name: Terraform-1st-job
+  runs-on: self-hosted
   steps:
    # - name: Dhondu maharaj Rocks!
    #   run: echo Dhondu Maharaj
