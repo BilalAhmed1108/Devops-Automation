@@ -13,5 +13,11 @@ jobs:
   steps:
    - name: Dhondu maharaj Rocks!
      run: echo Dhondu Maharaj
+
+   - name: Rondu maharaj Rocks!
+     run: echo Rondu Maharaj
+
+   - name: Tonndu maharaj Rocks!
+     run: echo Toondu Maharaj
   
 
